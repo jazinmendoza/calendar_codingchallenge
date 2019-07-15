@@ -9,3 +9,15 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.phpunit.result.cache
+bootstrap/cache/**
+!bootstrap/cache/READme.md
+/storage/framework/cache/**/b
+/storage/framework/views
+/storage/logs
+/storage/framework/sessions/**
+!/storage/framework/sessions/READme.md
+public/js/app.js
+public/css/app.css
+public/css/custom.css
+storage/framework/cache/data/**
