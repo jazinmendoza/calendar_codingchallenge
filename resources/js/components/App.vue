@@ -1,7 +1,6 @@
 <template>
     <div class="container-fluid bg-light main">
         <div class="row justify-content-center">
-           
             <div class="col-md-12"> 
                 <b-alert
                     :show="dismissCountDown"
@@ -10,7 +9,7 @@
                     variant="success"
                     @dismiss-count-down="countDownChanged"
                     class="flash-message">
-
+										<i class="fas fa-check-circle"></i>
                     Event Saved
                 </b-alert>
                 <div class="card shadow-sm p-3 mb-5 bg-white rounded">
@@ -39,15 +38,12 @@
 
     export default {
         components: { FormComponent, CalendarComponent, BAlert },
-        mounted() {
-            console.log('Component mounted.')
-        },
         data() {
-        return {
-            dismissSecs: 15,
-            dismissCountDown: 0,
-            showDismissibleAlert: false
-        }
+            return {
+                dismissSecs: 15,
+                dismissCountDown: 0,
+                showDismissibleAlert: false
+            }
         },
         methods: {
         countDownChanged(dismissCountDown) {
