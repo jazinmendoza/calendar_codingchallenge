@@ -10,11 +10,7 @@ window.Vue = require('vue');
 
 Vue.config.devtools = true;
 Vue.config.performance = true;
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+
 //Jquery
 import $ from 'jquery';
 window.$ = window.jQuery = $;
@@ -28,13 +24,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '@fortawesome/fontawesome-free/css/fontawesome.css'
 import '@fortawesome/fontawesome-free/css/regular.css'
 import '@fortawesome/fontawesome-free/css/solid.css'
-// import fontawesome from '@fortawesome/fontawesome'
-// import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
-// import solid from '@fortawesome/fontawesome-free-solid'
-
-// fontawesome.library.add(solid);
-
-// Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.use(datePicker);
 
