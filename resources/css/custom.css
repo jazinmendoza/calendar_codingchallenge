@@ -12,6 +12,7 @@
 }
 
 .day-row{
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   border-top: 1px solid rgb(153, 153, 153);
   height: 50px;
